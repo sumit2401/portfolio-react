@@ -1,0 +1,107 @@
+.about-section {
+    width: 60%;
+    margin-left: 200px;
+    margin-top: 100px;
+
+
+}
+
+.about {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 50%;
+    padding: 0px 0px 0px 300px;
+    gap: 50px;
+    line-height: 25px;
+}
+
+.about-heading {
+    font-size: 26px;
+    margin-left: 290px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.about-heading::before {
+    position: relative;
+
+    counter-increment: section 1;
+    content: "0" counter(section) ".";
+    margin-right: 10px;
+    color: #64ffda;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    ;
+    font-size: clamp(16px, 3vw, 20px);
+    font-weight: 400;
+}
+
+.about-heading::after {
+    content: "";
+    display: block;
+    position: relative;
+    margin-top: -14px;
+    width: 300px;
+    height: 1px;
+    margin-left: 190px;
+    background-color: #495670;
+}
+
+.aboutme p {
+    width: 550px;
+    height: 300px;
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.about-img img {
+  
+   mix-blend-mode: multiply;
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    background: #64ffda;
+
+}
+.background{
+    z-index: -1;
+    position: absolute;
+        display: block;
+        width: 300px;
+        height: 320px;
+        transition: transform 0.3s ease;
+        border-radius: 10px;
+        background-color: #64ffda;
+}
+
+.image:hover .about-img img {
+    transform: translateX(-2px) translateY(-2px);
+    mix-blend-mode: normal;
+}
+.image:hover .about-img .background {
+    transform: translateX(-2px) translateY(-2px);
+    
+}
+
+.border {
+    position: absolute;
+    border-radius: 10px;
+    width: 298px;
+    height: 320px;
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: -1;
+    border: 2px solid #64ffda;
+    transition: transform 0.3s ease;
+}
+
+.image:hover .about-img .border{
+    transform: translateX(2px) translateY(2px);
+}

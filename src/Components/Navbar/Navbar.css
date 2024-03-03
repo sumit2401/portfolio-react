@@ -1,0 +1,91 @@
+.nav-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    margin-left: -25px;
+
+}
+
+ol {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 20px;
+    margin-right: 40px;
+    list-style: none;
+}
+
+ol li {
+    
+    margin: 0 5px;
+    position: relative;
+    counter-increment: item 1;
+    font-size: 1.5rem;
+}
+
+ol li a {
+    width: 50px;
+    text-decoration: none;
+    color: #a8b2d1;
+    font-size: 14px;
+    font-family:
+        'Fira Code',
+        'Fira Mono',
+        'Roboto Mono',
+        monospace;
+    ;
+}
+
+ol li:link,
+li:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+    text-transform: uppercase;
+
+    color: #a8b2d1;
+    transition: color 0.3s linear;
+}
+
+ol li::before {
+    content: "0" counter(item) ".";
+    margin-right: 5px;
+    color: #64ffda;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: right;
+
+    &:hover {
+        color: #a8b2d1;
+    }
+}
+
+
+
+ol li :hover {
+    color: #64ffda;
+    
+}
+
+.resume-link {
+    padding: 10px 25px 15px 25px;
+    margin-right: 20px;
+    background: #2e947c;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #64ffda;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+
+.resume-link:hover {
+    color: #64ffda;
+    background: transparent;
+    border-radius: 2px solid #64ffda;
+}
