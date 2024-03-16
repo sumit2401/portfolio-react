@@ -11,7 +11,6 @@ const Email = () => {
           </a>
         </div>
       </div>
-      ;
     </EmailRight>
   );
 };
@@ -55,7 +54,26 @@ const EmailRight = styled.div`
 
     &:hover {
       color: #64ffda;
-      transform: translateY(-3px);
+      transform: translateY(-5px);
+      transition-property: transform, color;
+      transition-duration: 300ms;
+      transition-timing-function: ease-in;
+    }
+  }
+
+  @media (max-width: 1280px) {
+  }
+
+  @media (max-width: 1024px) {
+  }
+  @media (max-width: 769px) {
+    .social-right {
+      display: none;
+    }
+  }
+  @media (max-width: 500px) {
+    .social-right {
+      display: none;
     }
   }
 `;

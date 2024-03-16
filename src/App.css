@@ -1,5 +1,9 @@
 *{
 box-sizing: inherit;
+
+body{
+  overflow-x: hidden;
+}
 }
 .App {
   text-align: center;
@@ -31,6 +35,27 @@ box-sizing: inherit;
   color: #61dafb;
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #687b9e; 
+  }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #495670;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8892b0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -39,3 +64,11 @@ box-sizing: inherit;
     transform: rotate(360deg);
   }
 }
+
+@media (max-width:769px) {
+  ::-webkit-scrollbar{
+    display: none;
+  }
+}
+
+

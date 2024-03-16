@@ -20,13 +20,14 @@ const MainHeader = styled.header`
   justify-content: space-between;
   -webkit-box-align: center;
   align-items: center;
-  position: fixed;
+
   top: 0px;
   z-index: 11;
   margin-top: 20px;
   width: 100%;
   box-sizing: inherit;
   backdrop-filter: blur(10px);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 
   .navbar {
     display: flex;
@@ -38,4 +39,5 @@ const MainHeader = styled.header`
     width: 100%;
   }
 `;
+
 export default Header;

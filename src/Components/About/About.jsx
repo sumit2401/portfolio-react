@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
+
 import About_image from '../../Assets/Image/mine.jpg'
 const About = () => {
   return (

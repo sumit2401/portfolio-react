@@ -1,0 +1,168 @@
+.contact{
+  
+        width: 60%;
+        height: 500px;
+        margin-top: 500px;
+        margin-left: 400px;
+        justify-content: space-between;
+        display: block;
+        position: relative;
+     
+       
+}
+
+.heading{
+    font-size: 18px;
+    text-align: center;
+    margin-left: -100px;
+  
+  
+    
+        &::before {
+            counter-increment: section 4;
+            content: "0" counter(section) ".";
+            margin-right: 10px;
+            color: #64ffda;
+            font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    
+      
+}
+
+.contact h2{
+    color: #ccd6f6;
+    font-size: 40px;
+    text-align: center;
+    line-height: 2;
+    margin-left: -90px;
+
+}
+
+.contact p{
+    text-align: center;
+    margin-left: 200px;
+}
+.container{
+    margin-top: 100px;
+    margin-left: -160px;
+}
+.text{
+    color: #64ffda;
+    background-color: #0a192f;
+    border: 1px solid #64ffda;
+    width: 70px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+    position: absolute;
+    
+    
+
+}
+.bottombox{
+    width: 70px;
+    height: 20px;
+    background-color: #64ffda;
+z-index: -1;
+    position: absolute;
+    margin-left: 654px;
+}
+
+ 
+
+
+  .topbox {
+      position: absolute;
+      
+      transition: transform 0.3s ease-in-out;
+      /* Add a smooth transition */
+  }
+
+  .container:hover .topbox {
+      transform: translateY(-3px) translateX(-2px);
+  }
+
+ 
+
+  @media (max-width: 800px) {
+    .contact {
+            width: 80%;
+            margin-left: 140px;
+        }
+    
+        .heading {
+            font-size: 16px;
+            margin-left: -100px;
+        }
+    
+        .contact h2 {
+            text-align: center;
+            margin-left: -100px;
+        }
+    
+        .contact p {
+            text-align: center;
+            margin-left: -30px;
+        }
+    
+        .container {
+            margin-top: 100px;
+            margin-left: -200px;
+        }
+    
+    
+        .bottombox {
+            width: 70px;
+            height: 20px;
+            background-color: #64ffda;
+            z-index: -1;
+            position: absolute;
+            margin-left: 406px;
+        }
+  }
+
+  @media (max-width: 500px) {
+      .contact{
+        width: 80%;
+        margin-left: 100px;
+      }
+      .heading{
+        font-size: 16px;
+        margin-left: -100px;
+      }
+
+      .contact h2{
+        text-align: center;
+        margin-left: -100px;
+      }
+
+          .contact p {
+              text-align: center;
+              margin-left: -30px;
+          }
+    
+          .container {
+              margin-top: 100px;
+              margin-left: -170px;
+          }
+    
+         
+          .bottombox {
+              width: 70px;
+              height: 20px;
+              background-color: #64ffda;
+              z-index: -1;
+              position: absolute;
+              margin-left: 285px;
+          }
+    
+    
+    
+    
+         
+  }

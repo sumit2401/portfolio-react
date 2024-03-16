@@ -1,7 +1,10 @@
 .about-section {
     width: 60%;
-    margin-left: 200px;
+   
     margin-top: 100px;
+    align-items: center;
+    align-content: center;
+    margin-left: 100px;
 
 
 }
@@ -61,6 +64,7 @@
 .about-img img {
   
    mix-blend-mode: multiply;
+   filter: brightness(0.7);
     position: absolute;
     display: block;
     width: 300px;
@@ -84,9 +88,17 @@
 .image:hover .about-img img {
     transform: translateX(-2px) translateY(-2px);
     mix-blend-mode: normal;
+    filter: brightness(1);
+    transition-property: transform, mix-blend-mode, filter;
+        transition-duration: 400ms;
+        transition-timing-function:ease-in;
 }
 .image:hover .about-img .background {
+
     transform: translateX(-2px) translateY(-2px);
+    transition-property: transform;
+        transition-duration: 400ms;
+        transition-timing-function: ease-in-out;
     
 }
 
@@ -104,4 +116,137 @@
 
 .image:hover .about-img .border{
     transform: translateX(2px) translateY(2px);
+}
+
+
+
+@media (max-width: 769px) {
+    .about-section {
+            width: 80%;
+    
+            margin-top: 100px;
+    
+            margin-left: -210px;
+    
+    
+        }
+    
+        .about {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            padding: 0px 0px 0px 300px;
+            gap: 40px;
+    
+        }
+    
+        .about-heading {
+            width: 150px;
+            font-size: 20px;
+            margin-left: 300px;
+            font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+        }
+    
+        .about-heading::before {
+            margin-right: 10px;
+            position: relative;
+            color: #64ffda;
+            font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+            ;
+            font-size: clamp(16px, 3vw, 20px);
+            font-weight: 400;
+        }
+    
+        .about-heading::after {
+            width: 200px;
+        }
+    
+        .aboutme p {
+            width: 600px;
+            height: auto
+        }
+    
+        .image {
+            position: relative;
+            display: inline-block;
+            margin-left: 130px;
+        }
+    
+        .about-img img {
+    
+    
+            width: 300px;
+            height: auto;
+    
+    
+        }
+}
+
+@media (max-width: 500px) {
+
+    .about-section {
+            width: 80%;
+    
+            margin-top: 100px;
+           
+            margin-left: -250px;
+    
+    
+        }
+    
+        .about {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+             width: 80%;
+            padding: 0px 0px 0px 300px;
+            gap: 40px;
+            
+        }
+    
+        .about-heading {
+            width: 150px;
+            font-size: 20px;
+            margin-left: 300px;
+            font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+        }
+    
+        .about-heading::before {
+            margin-right: 10px;
+            position: relative;
+             color: #64ffda;
+            font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+            ;
+            font-size: clamp(16px, 3vw, 20px);
+            font-weight: 400;
+        }
+    
+        .about-heading::after {
+            width: 200px;
+        }
+    
+        .aboutme p {
+            width: 400px;
+            height: auto
+        }
+    
+        .image {
+            position: relative;
+            display: inline-block;
+            margin-left: 40px;
+        }
+    
+        .about-img img {
+    
+         
+            width: 300px;
+            height: auto;
+          
+    
+        }
+    
+     
+    
+       
 }

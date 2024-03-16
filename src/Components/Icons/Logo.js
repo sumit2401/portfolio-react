@@ -98,6 +98,12 @@ const IconLogo = styled.section`
   .container:hover .top {
     transform: translateY(-3px) translateX(-2px);
   }
+
+  @media (max-width: 769px) {
+    .container {
+      margin-left: 50px;
+    }
+  }
 `;
 
 export default Logo;
