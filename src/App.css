@@ -1,9 +1,8 @@
 *{
 box-sizing: inherit;
 
-body{
-  overflow-x: hidden;
-}
+
+
 }
 .App {
   text-align: center;
@@ -66,6 +65,9 @@ body{
 }
 
 @media (max-width:769px) {
+  body{
+    overflow: hidden;
+  }
   ::-webkit-scrollbar{
     display: none;
   }
