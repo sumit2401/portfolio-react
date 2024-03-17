@@ -51,9 +51,9 @@ const FrontLoader = styled.div`
     margin-left: 900px;
   }
 
-  .loader .logo g {
-    stroke-dasharray: 2300;
-    stroke-dashoffset: 2000;
+  .loader .logo #shape {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
   }
 `;
 
