@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Loader = () => {
   return (
     <FrontLoader>
-      <div>
+      <div className="loader">
         <svg
           id="logo"
           xmlns="http://www.w3.org/2000/svg"
@@ -20,24 +20,11 @@ const Loader = () => {
                 fill="transparent"
                 color="#64ffda"
                 stroke="currentColor"
-                strokeWidth="8"
+                strokeWidth="5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 points="39 0 0 22 0 67 39 90 78 68 78 23"
-              >
-                <animate
-                  attributeName="points"
-                  dur="3s"
-                  repeatCount="indefinite"
-                  values="39 0 0 22 0 67 39 90 78 68 78 23;
-                  39 0 0 22 0 67 0 0 78 68 78 23;
-                  39 0 0 22 0 67 0 0 0 0 78 23;
-                  39 0 0 22 0 67 0 0 0 0 0 0;
-                  39 0 0 22 0 67 39 90 0 0 0 0;
-                  39 0 0 22 0 67 39 90 78 68 0 0;
-                  39 0 0 22 0 67 39 90 78 68 78 23"
-                />
-              </polygon>
+              />
               <text
                 x="25"
                 y="63"
@@ -57,7 +44,17 @@ const Loader = () => {
 };
 
 const FrontLoader = styled.div`
-  width: 50px;
+  .loader {
+    width: 70px;
+    text-align: center;
+    margin-top: 450px;
+    margin-left: 900px;
+  }
+
+  .loader .logo g {
+    stroke-dasharray: 2300;
+    stroke-dashoffset: 2000;
+  }
 `;
 
 export default Loader;
