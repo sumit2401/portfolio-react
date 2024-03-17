@@ -350,9 +350,77 @@ z-index: -1;
     margin-top: 200px;
 }
 
- @media (max-width: 1280px) {}
+ @media (max-width: 1440px) {
+    .projects{
+        margin-left: 200px;
+    }
+ }
 
- @media (max-width: 1024px) {}
+ @media (max-width: 1024px) {
+    .projects{
+        margin-left: 170px;
+    }
+    .project1-left img{
+        width: 400px;
+        height: 230px
+    }
+         .project1-left .project1filter{
+            width: 400px;
+            height: 230px;
+         }
+                  .project1 .project1-right {
+                      z-index: 1;
+                     margin-left: 250px;
+                     margin-top: -25px;
+                  }
+
+                                  .project1 .project1-right p {
+                                      width: 350px;
+                                      margin-top: -20px;
+                                  }
+
+     .project1-left:hover+.project1-right {
+        z-index: -1;
+  transform: translateX(70px);
+    transition: transform 0.4s ease-in-out;
+    
+}
+
+/* project2 */
+
+    .project2{
+        margin-left: -10px;
+    }
+
+    .project2-right img{
+        width: 400px;
+        height: 230px;
+    }
+
+    .project2-right .project2filter{
+        width: 400px;
+        height: 230px;
+    }
+
+    .project2-right{
+        margin-left: -170px;
+    }
+
+    .project2-left{
+        margin-left: 30px;
+    }
+
+    .project2-left{
+        margin-top: -25px;
+    }
+
+    .project2-left p{
+        width: 350px;
+        margin-top: -20px;
+        font-size: 15px;
+        
+    }
+ }
 
 @media (max-width: 769px) {
     .projects {
@@ -575,14 +643,153 @@ z-index: -1;
                                  }
                  
  }
-@media (max-width: 375px) {
+
+ @media (max-width: 375px) {
+     .projects {
+         width: 100%;
+         margin-left: 20px;
+     }
+
+     .projects .project-heading {
+         font-size: 20px;
+     }
+
+     .projects .project-heading::after {
+         width: 35px;
+         margin-top: -10px;
+         margin-left: 250px;
+     }
+
+
+     .project1 {
+         flex-direction: row;
+         margin-left: 10px;
+     }
+
+     .project1-left img {
+         width: 320px;
+         height: auto;
+     }
+
+     .project1-left .project1filter {
+         width: 320px;
+         height: 150px;
+     }
+
+     .project1 .project1-right {
+         z-index: 1;
+         margin-left: -15px;
+         margin-top: 120px;
+     }
+
+     .project1 .project1-right h5 {
+         margin-top: -100px;
+         font-size: 12px;
+     }
+
+     .project1 .project1-right a {
+         font-size: 16px;
+         text-align: end;
+     }
+
+     .project1 .project1-right p {
+         width: 280px;
+         font-size: 14px;
+     }
+
+     .project1-right ul {
+         margin-left: -25px;
+     }
+
+     .project1-right ul li {
+         font-size: 12px;
+
+     }
+
+
+
+     /* project */
+     .project2 {
+
+         margin-top: 40px;
+         margin-left: 5px;
+     }
+
+     .project2-right {
+         margin-left: -15px;
+     }
+
+     .project2-right img {
+         width: 320px;
+         height: auto;
+         margin-left: -325px;
+     }
+
+     .project2-right .project2filter {
+         width: 320px;
+         height: 150px;
+         margin-left: -325px;
+     }
+
+     .project2 .project2-left {
+         z-index: 1;
+         margin-left: -5px;
+         margin-top: -10px;
+     }
+
+
+
+
+     .project2 .project2-left p {
+         width: 280px;
+         font-size: 14px;
+         margin-left: 5px;
+     }
+
+
+     .project2-left ul {
+         margin-left: 60px;
+     }
+
+     .project2-social {
+         gap: 10px;
+         margin-left: 290px;
+     }
+
+     .project2-left h5 {
+        
+         font-size: 12px;
+     }
+
+     .project2-left a {
+         font-size: 18px;
+         margin-left: -10px;
+         
+     }
+
+
+
+     .project3 {
+         margin-top: 40px;
+     }
+
+ }
+@media (max-width: 320px) {
     .projects {
-        margin-left: 30px;
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .projects .project-heading{
+        font-size: 20px;
     }
 
     .projects .project-heading::after {
-        width: 100px;
+        width: 35px;
+        margin-top: -10px;
+        margin-left: 250px;
     }
+
 
     .project1 {
         flex-direction: row;
@@ -590,13 +797,13 @@ z-index: -1;
     }
 
     .project1-left img {
-        width: 350px;
+        width: 270px;
         height: auto;
     }
 
     .project1-left .project1filter {
-        width: 350px;
-        height: 167px;
+        width: 270px;
+        height: 127px;
     }
 
     .project1 .project1-right {
@@ -607,25 +814,29 @@ z-index: -1;
 
     .project1 .project1-right h5 {
         margin-top: -100px;
+        font-size: 12px;
+    }
+
+    .project1 .project1-right a{
+        font-size: 16px;
+        text-align: end;
     }
 
     .project1 .project1-right p {
-        width: 308px;
+        width: 228px;
         font-size: 14px;
     }
 
-    .project1-left:hover img {
-        transform: none;
+    .project1-right ul{
+        margin-left: -25px;
     }
 
-    .project1-left:hover img .project1filter .pro {
-        transform: none;
+    .project1-right ul li{
+        font-size: 12px;
+       
     }
 
-
-    .project1-left:hover+.project1-right {
-        transform: none;
-    }
+   
 
     /* project */
     .project2 {
@@ -634,49 +845,57 @@ z-index: -1;
         margin-left: 5px;
     }
 
+    .project2-right{
+        margin-left: 40px;
+    }
+
     .project2-right img {
-        width: 350px;
+        width: 270px;
         height: auto;
         margin-left: -325px;
     }
 
     .project2-right .project2filter {
-        width: 350px;
-        height: 166px;
+        width: 270px;
+        height: 127px;
         margin-left: -325px;
     }
 
     .project2 .project2-left {
         z-index: 1;
         margin-left: -5px;
-        margin-top: 0px;
+        margin-top: -10px;
     }
 
 
 
 
     .project2 .project2-left p {
-        width: 310px;
+        width: 230px;
         font-size: 14px;
         margin-left: 5px;
     }
 
 
     .project2-left ul {
-        margin-left: 89px;
+        margin-left: 9px;
     }
 
     .project2-social {
-        margin-left: 310px;
+        gap: 10px;
+        margin-left: 232px;
     }
 
-    .project2:hover .project2-left {
-        transform: none;
+    .project2-left h5{
+        font-size: 12px;
     }
 
-    .project2:hover .project2-right {
-        transform: none;
+    .project2-left a{
+        font-size: 18px;
+        margin-left: -10px;
     }
+
+   
 
     .project3 {
         margin-top: 40px;

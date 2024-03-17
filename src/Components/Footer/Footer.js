@@ -32,23 +32,93 @@ const FooterBox = styled.div`
     }
   }
 
-  @media (max-width: 1280px) {
+  @media (max-width: 1440px) {
+    .footer {
+      margin-left: 650px;
+    }
   }
 
   @media (max-width: 1024px) {
+    .footer {
+      width: 40%;
+      margin-left: 420px;
+    }
+
+    .footer p {
+      font-size: 13px;
+      margin-left: 10px;
+    }
+    .footer .inspired {
+      font-size: 13px;
+      margin-top: -20px;
+      margin-left: ;
+    }
   }
 
-  @media (max-width: 769px) {
+  @media (max-width: 768px) {
     .footer {
       width: 40%;
       margin-left: 280px;
     }
+
+    .footer p {
+      font-size: 13px;
+      margin-left: 10px;
+    }
+    .footer .inspired {
+      font-size: 13px;
+      margin-top: -20px;
+      margin-left: ;
+    }
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 425px) {
     .footer {
       width: 60%;
-      margin-left: 150px;
+      margin-left: 115px;
+    }
+    .footer p {
+      margin-left: 10px;
+      font-size: 12px;
+    }
+    .footer .inspired {
+      margin-top: -20px;
+      margin-left: -20px;
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .footer {
+      width: 100%;
+      margin-left: 90px;
+    }
+
+    .footer p {
+      margin-left: 10px;
+      font-size: 12px;
+    }
+    .footer .inspired {
+      margin-top: -20px;
+      margin-left: -20px;
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .footer {
+      width: 100%;
+      margin-left: 60px;
+    }
+
+    .footer p {
+      margin-left: 10px;
+      font-size: 12px;
+    }
+    .footer .inspired {
+      margin-top: -20px;
+      margin-left: -20px;
+      font-size: 12px;
     }
   }
 `;

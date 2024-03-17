@@ -49,7 +49,12 @@
 
  @media (max-width: 1280px) {}
 
- @media (max-width: 1024px) {}
+ @media (max-width: 1024px) {
+
+    .social-icon{
+        margin-left: -40px;
+    }
+ }
 
  @media (max-width: 769px) {
     .social-icon{

@@ -67,7 +67,17 @@ p span {
 
 }
 
-
+@media(max-width:1440px){
+    .hero-section{
+        margin-left: 200px;
+    }
+    p{
+        width: 70%;
+    }
+    h2{
+        width: 1000px;
+    }
+}
 
  @media (max-width: 1024px) {
     .hero-section {

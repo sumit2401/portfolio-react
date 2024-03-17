@@ -118,8 +118,67 @@
     transform: translateX(2px) translateY(2px);
 }
 
+@media(max-width:1440px){
+    .about-section{
+        margin-left: -100px;
+    }
+}
 
-
+@media(max-width:1024px){
+    .about-section {
+            width: 90%;
+    
+            margin-top: 100px;
+    
+            margin-left: -150px;
+    
+    
+        }
+    
+        .about {
+            margin-top: 50px;
+            display: flex;
+       
+            width: 90%;
+            padding: 0px 0px 0px 300px;
+            gap: 40px;
+    
+        }
+    
+    
+    
+        .aboutme p {
+            font-size: 14px;
+            width: 400px;
+            height: auto
+        }
+    
+        .image .about-img{
+            position: relative;
+            display: inline-block;
+            margin-left: -750px;
+            
+        }
+    
+        .about-img img {
+    
+    
+            width: 280px;
+            height: auto;
+    
+    
+        }
+    
+        .background {
+            width: 280px;
+            height: 300px;
+        }
+        .border{
+            height: 300px;
+            width: 280px;
+        }
+}
+ 
 @media (max-width: 768px) {
     .about-section {
             width: 80%;
