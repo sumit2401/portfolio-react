@@ -137,7 +137,7 @@ const SkillStyle = styled.div`
    
 
 }
-@media(max-width:769px) {
+@media(max-width:768px) {
     .skills{
         width: 200px;
         
@@ -154,7 +154,7 @@ const SkillStyle = styled.div`
    
    .skill-list ul{
     flex-wrap: wrap;
-    
+    margin-left: 120px;
     margin-top: 40px;
 
 
@@ -187,17 +187,19 @@ const SkillStyle = styled.div`
 flex-wrap: wrap;
 margin-left: 120px;
 margin-top: 40px;
+width: 300px;
+
 
 
   }
 
   .skill-list ul li{
-    margin-left: -150px;
+    margin-left: -10px;
     
   }
 
   .skill-list ul li:nth-child(n+5){
-    margin-left: 50px;
+    margin-left: 80px;
   }
 
 }
@@ -213,6 +215,8 @@ margin-top: 40px;
     .skill-list ul{
         flex-direction: column;
         flex-wrap: nowrap;
+        width: 500px;
+        margin-left: 280px;
     }
 
      .skill-list ul li:nth-child(n+5){

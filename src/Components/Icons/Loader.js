@@ -51,9 +51,20 @@ const FrontLoader = styled.div`
     margin-left: 900px;
   }
 
-  .loader .logo #shape {
-    stroke-dasharray: 0;
-    stroke-dashoffset: 0;
+  .loader .logo #Shape {
+    animation: dash 1.5s linear infinite;
+  }
+
+  @keyframes dash {
+    0% {
+      stroke-dashoffset: 220;
+    }
+    50% {
+      stroke-dashoffset: 110;
+    }
+    100% {
+      stroke-dashoffset: 220;
+    }
   }
 `;
 

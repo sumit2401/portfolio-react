@@ -156,7 +156,7 @@
         .image .about-img{
             position: relative;
             display: inline-block;
-            margin-left: -750px;
+            margin-left: -370px;
             
         }
     
@@ -209,13 +209,7 @@
     
         .about-heading::before {
             margin-right: 10px;
-            position: relative;
-            color: #64ffda;
-            font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-            ;
-            font-size: clamp(16px, 3vw, 20px);
-            font-weight: 400;
-        }
+            }
     
         .about-heading::after {
             width: 200px;
@@ -229,7 +223,7 @@
         .image {
             position: relative;
             display: inline-block;
-            margin-left: 100px;
+            margin-left: 520px;
         }
     
         .about-img img {
@@ -243,6 +237,11 @@
         .background{
             width: 300px;
             height: 320px;
+        }
+        .border{
+            width: 300px;
+                height: 320px;
+            
         }
 }
 
@@ -292,7 +291,7 @@
         .image {
             position: relative;
             display: inline-block;
-            margin-left: 40px;
+            margin-left: 420px;
         }
     
         .about-img img {
@@ -342,17 +341,14 @@
         width: 150px;
         font-size: 20px;
         margin-left: 300px;
-        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+        
     }
 
     .about-heading::before {
         margin-right: 10px;
-        position: relative;
-        color: #64ffda;
-        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-        ;
-        font-size: clamp(16px, 3vw, 20px);
-        font-weight: 400;
+       
+       
+       
     }
 
     .about-heading::after {
@@ -369,7 +365,7 @@
     .image {
         position: relative;
         display: inline-block;
-        margin-left: 25px;
+        margin-left: 400px;
     }
 
     .about-img img {
@@ -422,17 +418,11 @@
         width: 150px;
         font-size: 20px;
         margin-left: 300px;
-        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
     }
 
     .about-heading::before {
         margin-right: 10px;
-        position: relative;
-        color: #64ffda;
-        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-        ;
-        font-size: clamp(16px, 3vw, 20px);
-        font-weight: 400;
+       
     }
 
     .about-heading::after {
@@ -449,7 +439,7 @@
     .image {
         position: relative;
         display: inline-block;
-        margin-left: 5px;
+        margin-left: 370px;
     }
 
     .about-img img {

@@ -403,7 +403,7 @@ z-index: -1;
     }
 
     .project2-right{
-        margin-left: -170px;
+        margin-left: -46px;
     }
 
     .project2-left{
@@ -422,7 +422,7 @@ z-index: -1;
     }
  }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
     .projects {
         margin-left: 80px;
     }
@@ -540,9 +540,14 @@ z-index: -1;
      .projects{
         margin-left: 30px;
      }
+     .projects .project-heading{
+        font-size: 22px;
+        width: 320px;
+     }
 
      .projects .project-heading::after{
         width: 100px;
+        margin-left: 270px;
      }
 
      .project1{
@@ -593,17 +598,20 @@ z-index: -1;
                      margin-top: 40px;
                     margin-left: 5px;
                  }
+                 .project2-right{
+                    margin-left: -170px;
+                 }
         
                  .project2-right img {
                      width: 350px;
                      height: auto;
-                     margin-left: -325px;
+                     margin-left: -200px;
                  }
         
                  .project2-right .project2filter {
                      width: 350px;
                      height: 166px;
-            margin-left: -325px;
+            margin-left: -200px;
                  }
         
                  .project2 .project2-left {

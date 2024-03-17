@@ -157,28 +157,22 @@ z-index: -1;
     
         .contact h2 {
             text-align: center;
-            margin-left: -100px;
+            margin-left: -40px;
         }
     
         .contact p {
+            width: 100%;
             text-align: center;
-            margin-left: -30px;
+            margin-left: -60px;
         }
     
         .container {
             margin-top: 100px;
-            margin-left: -200px;
+            margin-left: 200px;
         }
     
     
-        .bottombox {
-            width: 70px;
-            height: 20px;
-            background-color: #64ffda;
-            z-index: -1;
-            position: absolute;
-            margin-left: 406px;
-        }
+        
   }
 
   @media (max-width: 425px) {
@@ -194,7 +188,7 @@ z-index: -1;
       .contact h2{
         margin-top: -30px;
         text-align: center;
-        margin-left: -90px;
+        margin-left: -20px;
       }
 
           .contact p {
@@ -206,18 +200,11 @@ z-index: -1;
     
           .container {
               margin-top: 100px;
-              margin-left: -170px;
+              margin-left: 130px;
           }
     
          
-          .bottombox {
-              width: 70px;
-              height: 20px;
-              background-color: #64ffda;
-              z-index: -1;
-              position: absolute;
-              margin-left: 298px;
-          }
+          
     
     
     
@@ -238,7 +225,7 @@ z-index: -1;
       .contact h2 {
           font-size: 30px;
           text-align: center;
-          margin-left: -110px;
+          margin-left: -40px;
       }
 
       .contact p {
@@ -250,18 +237,11 @@ z-index: -1;
 
       .container {
           margin-top: 60px;
-          margin-left: -180px;
+          margin-left: 90px;
       }
 
 
-      .bottombox {
-          width: 70px;
-          height: 20px;
-          background-color: #64ffda;
-          z-index: -1;
-          position: absolute;
-          margin-left: 278px;
-      }
+      
   }
 
   @media(max-width:320px){
@@ -278,7 +258,7 @@ z-index: -1;
         .contact h2 {
             font-size: 30px;
             text-align: center;
-            margin-left: -90px;
+            margin-left: -30px;
         }
     
         .contact p {
@@ -290,16 +270,9 @@ z-index: -1;
     
         .container {
             margin-top: 60px;
-            margin-left: -170px;
+            margin-left: 80px;
         }
     
     
-        .bottombox {
-            width: 70px;
-            height: 20px;
-            background-color: #64ffda;
-            z-index: -1;
-            position: absolute;
-            margin-left: 245px;
-        }
+       
   }
