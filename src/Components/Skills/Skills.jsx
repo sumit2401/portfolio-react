@@ -2,25 +2,25 @@ import React from "react";
 import styled from "styled-components";
 
 const Skills = () => {
-    return (
-        <SkillStyle>
-            <div className="skills" id="skills">
-                <h2 className="skill-heading">Skills</h2>
-                <div className="skill-list">
-                    <ul >
-                        <li>Java</li>
-                        <li>Javascript(ES6+)</li>
-                        <li>ReactJs</li>
-                        <li>NodeJS</li>
-                        <li>ExpressJs</li>
-                        <li>MongoDB</li>
-                        <li>SQL</li>
+  return (
+    <SkillStyle>
+      <div className="skills" id="skills">
+        <h2 className="skill-heading">Skills</h2>
+        <div className="skill-list">
+          <ul >
+            <li>Java</li>
+            <li>Javascript(ES6+)</li>
+            <li>ReactJs</li>
+            <li>NodeJS</li>
+            <li>ExpressJs</li>
+            <li>MongoDB</li>
+            <li>SQL</li>
 
-                    </ul>
-                </div>
-            </div>
-        </SkillStyle>
-    );
+          </ul>
+        </div>
+      </div>
+    </SkillStyle>
+  );
 };
 
 const SkillStyle = styled.div`
@@ -149,13 +149,10 @@ const SkillStyle = styled.div`
     .skill-heading::after{
        width: 200px;
     }
-    .skill-list{
-       
-        margin-left: -320px;
-    }
+   
    .skill-list ul{
     flex-wrap: wrap;
-    margin-left: 30px;
+    
     margin-top: 40px;
 
 
@@ -167,7 +164,7 @@ const SkillStyle = styled.div`
   }
 
 }
-@media(max-width:500px) {
+@media(max-width:425px) {
 
     .skills{
         width: 200px;
@@ -177,24 +174,91 @@ const SkillStyle = styled.div`
         /* justify-content: center; */
         
     }
-    .skill-list{
-        margin-left: -420px;
-    }
+    
 
     .skill-heading::after{
        width: 200px;
     }
+
+   
   .skill-list ul{
 flex-wrap: wrap;
 margin-left: 120px;
+margin-top: 40px;
 
 
+  }
+
+  .skill-list ul li{
+    margin-left: -150px;
+    
   }
 
   .skill-list ul li:nth-child(n+5){
-    margin-left: 150px;
+    margin-left: 50px;
   }
 
+}
+@media  (max-width:375px){
+
+    margin-left: -25px;
+
+    .skill-list{
+        margin-left: -50px;
+        margin-top: 10px;
+    }
+
+    .skill-list ul{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+     .skill-list ul li:nth-child(n+5){
+  
+    margin-left: -140px;
+  }
+
+  .skill-list ul li{
+    
+    margin-left: -140px;
+  }
+
+  .skill-heading::after{
+    width: 120px;
+  }
+
+    
+}
+
+@media  (max-width:320px){
+
+    margin-left: -25px;
+
+    .skill-list{
+        margin-left: -50px;
+        margin-top: 20px;
+    }
+
+    .skill-list ul{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+     .skill-list ul li:nth-child(n+5){
+  
+    margin-left: -140px;
+  }
+
+  .skill-list ul li{
+    
+    margin-left: -140px;
+  }
+
+  .skill-heading::after{
+    width: 120px;
+  }
+
+    
 }
 
 

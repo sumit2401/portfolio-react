@@ -120,7 +120,7 @@
 
 
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
     .about-section {
             width: 80%;
     
@@ -170,7 +170,7 @@
         .image {
             position: relative;
             display: inline-block;
-            margin-left: 130px;
+            margin-left: 100px;
         }
     
         .about-img img {
@@ -181,22 +181,26 @@
     
     
         }
+        .background{
+            width: 300px;
+            height: 320px;
+        }
 }
 
 @media (max-width: 425px) {
 
     .about-section {
-            width: 80%;
+            width: 100%;
     
-            margin-top: 100px;
+            margin-top: 50px;
            
-            margin-left: -250px;
+            margin-left: -270px;
     
     
         }
     
         .about {
-            margin-top: 50px;
+            margin-top: -30px;
             display: flex;
             flex-direction: column;
              width: 80%;
@@ -212,23 +216,18 @@
             font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
         }
     
-        .about-heading::before {
-            margin-right: 10px;
-            position: relative;
-             color: #64ffda;
-            font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-            ;
-            font-size: clamp(16px, 3vw, 20px);
-            font-weight: 400;
-        }
+      
     
         .about-heading::after {
-            width: 200px;
+            margin-left: 150px;
+            width: 150px;
         }
     
         .aboutme p {
-            width: 400px;
+            font-size: 16px;
+            width: 365px;
             height: auto
+            
         }
     
         .image {
@@ -240,13 +239,180 @@
         .about-img img {
     
          
-            width: 300px;
+            width: 270px;
             height: auto;
           
     
+        }
+
+        .background{
+            width: 270px;
+            height: 289px;
+        }
+        .border{
+            width: 270px;
+            height: 289px;
         }
     
      
     
        
+}
+@media (max-width: 375px) {
+
+    .about-section {
+        width: 90%;
+
+        margin-top: 50px;
+
+        margin-left: -270px;
+
+
+    }
+
+    .about {
+        margin-top: -30px;
+
+        width: 90%;
+        padding: 0px 0px 0px 300px;
+        gap: 40px;
+
+    }
+
+    .about-heading {
+        width: 150px;
+        font-size: 20px;
+        margin-left: 300px;
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    }
+
+    .about-heading::before {
+        margin-right: 10px;
+        position: relative;
+        color: #64ffda;
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+        ;
+        font-size: clamp(16px, 3vw, 20px);
+        font-weight: 400;
+    }
+
+    .about-heading::after {
+        width: 100px;
+        margin-left: 150px;
+    }
+
+    .aboutme p {
+        font-size: 14px;
+        width: 320px;
+        height: auto
+    }
+
+    .image {
+        position: relative;
+        display: inline-block;
+        margin-left: 25px;
+    }
+
+    .about-img img {
+
+
+        width: 250px;
+        height: auto;
+
+
+    }
+    .background{
+        width: 250px;
+        height: 265px;
+    }
+
+    .border {
+        width: 250px;
+        height: 265px;
+    }
+
+
+
+
+
+
+}
+
+ 
+@media (max-width: 320px) {
+
+    .about-section {
+        width: 90%;
+
+        margin-top: 50px;
+
+        margin-left: -270px;
+
+
+    }
+        .about {
+        margin-top: -10px;
+       
+        width: 90%;
+        padding: 0px 0px 0px 300px;
+        gap: 40px;
+
+    }
+
+    .about-heading {
+        width: 150px;
+        font-size: 20px;
+        margin-left: 300px;
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    }
+
+    .about-heading::before {
+        margin-right: 10px;
+        position: relative;
+        color: #64ffda;
+        font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+        ;
+        font-size: clamp(16px, 3vw, 20px);
+        font-weight: 400;
+    }
+
+    .about-heading::after {
+        width: 100px;
+        margin-left: 150px;
+    }
+
+    .aboutme p {
+        font-size: 14px;
+        width: 270px;
+        height: auto
+    }
+
+    .image {
+        position: relative;
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+    .about-img img {
+
+
+        width: 250px;
+        height: auto;
+
+
+    }
+    .background{
+        width: 250px;
+        height: 265px;
+    }
+    .border{
+        width: 250px;
+        height: 265px;
+    }
+
+
+
+
+
+
 }
