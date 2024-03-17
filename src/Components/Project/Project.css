@@ -536,7 +536,7 @@ z-index: -1;
 
 }
 
- @media (max-width: 425px) {
+ @media (max-width: 500px) {
      .projects{
         margin-left: 30px;
      }
