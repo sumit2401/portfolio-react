@@ -358,7 +358,10 @@ z-index: -1;
 
  @media (max-width: 1024px) {
     .projects{
-        margin-left: 170px;
+        margin-left: 120px;
+    }
+    .project1{
+        margin-left: 70px;
     }
     .project1-left img{
         width: 400px;
@@ -389,8 +392,9 @@ z-index: -1;
 /* project2 */
 
     .project2{
-        margin-left: -10px;
+        margin-left: 40px;
     }
+
 
     .project2-right img{
         width: 400px;
@@ -403,7 +407,7 @@ z-index: -1;
     }
 
     .project2-right{
-        margin-left: -46px;
+        margin-left: -166px;
     }
 
     .project2-left{

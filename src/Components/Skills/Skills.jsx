@@ -121,7 +121,7 @@ const SkillStyle = styled.div`
    .skills{
         width: 400px;
         
-        margin-left: 150px;
+        margin-left: 120px;
         text-align: center;
         /* align-items: center; */
         /* justify-content: center; */
