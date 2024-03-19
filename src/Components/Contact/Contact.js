@@ -7,9 +7,9 @@ const Contact = () => {
       <h5 className="heading">What's next</h5>
       <h2>Get in touch?</h2>
       <p>
-        I am currently looking for new opportunities. so id you have anything
-        for me my inbox is always open. Whether you have a question or just want
-        to say hi, i'll always get you back
+        I am currently looking for new opportunities. so if you have anything
+        for me, my inbox is always open. Whether you have a question or just
+        want to say hi, i'll always get you back
       </p>
       <div className="container">
         <a

@@ -18,8 +18,8 @@ const About = () => {
         <div className="image">
 
           <div className="about-img">
-            <img src={About_image} alt="" />
-            <div className='background'></div>
+            <img src={About_image} loading='lazy' alt="" />
+            <div className='background' ></div>
             <div className="border"></div>
           </div>
         </div>
