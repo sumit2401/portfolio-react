@@ -487,13 +487,13 @@ z-index: -1;
     .project2-right img {
         width: 500px;
         height: auto;
-        margin-left: -468px;
+        margin-left: -347px;
     }
 
     .project2-right .project2filter {
         width: 500px;
         height: 230px;
-        margin-left: -468px;
+        margin-left: -347px;
     }
 
     .project2 .project2-left {
@@ -542,7 +542,7 @@ z-index: -1;
 
  @media (max-width: 500px) {
      .projects{
-        margin-left: 30px;
+        margin-left: 25px;
      }
      .projects .project-heading{
         font-size: 22px;

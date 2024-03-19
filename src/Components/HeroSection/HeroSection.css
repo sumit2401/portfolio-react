@@ -128,7 +128,7 @@ p span {
             width: 90%;
         }
  }
- @media (max-width: 425px) {
+ @media (max-width: 500px) {
 
      .hero-section {
          margin-top: -80px;

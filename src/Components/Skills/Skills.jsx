@@ -166,7 +166,7 @@ const SkillStyle = styled.div`
   }
 
 }
-@media(max-width:425px) {
+@media(max-width:500px) {
 
     .skills{
         width: 200px;
