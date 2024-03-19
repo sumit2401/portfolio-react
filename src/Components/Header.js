@@ -31,6 +31,7 @@ const MainHeader = styled.header`
 
   .navbar {
     display: flex;
+
     -webkit-box-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;

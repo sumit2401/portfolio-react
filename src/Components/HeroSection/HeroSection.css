@@ -12,6 +12,7 @@
     /* -webkit-box-align: center; */
     /* -webkit-box-pack: center; */
     margin-left: 400px;
+   user-select: none;
 
 }
 

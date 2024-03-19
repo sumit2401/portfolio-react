@@ -95,9 +95,14 @@ ol li :hover {
 
 
 @media (max-width:769px) {
+
+  .mobile-navbar-btn .menu-outline{
+    margin-left: -70px;
+  }
     .mobile-navbar-btn {
         display: inline-block;
         z-index: 999;
+        margin-left: 0px;
     }
     .mobile-navbar-btn  .mobile-navbar-icon {
        font-size: 30px;
