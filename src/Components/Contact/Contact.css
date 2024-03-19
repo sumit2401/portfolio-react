@@ -48,6 +48,10 @@
     margin-top: 100px;
     margin-left: 490px;
 }
+
+.container a{
+    text-align: center;
+}
 .text{
     color: #64ffda;
     background-color: #0a192f;
@@ -60,7 +64,7 @@
     line-height: 1;
     text-decoration: none;
     position: absolute;
-    text-align: center;
+   
     
     
 
