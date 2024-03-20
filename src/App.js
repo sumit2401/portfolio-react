@@ -11,7 +11,7 @@ function App() {
     const fetchData = () => {
       setTimeout(() => {
         setIsLoading(false);
-      }, 4000);
+      }, 20000000);
     };
     fetchData();
   }, []);

@@ -15,22 +15,22 @@ const Loader = () => {
           <title>Logo</title>
           <g transform="translate(-8.000000, -2.000000)">
             <g transform="translate(11.000000, 5.000000)">
-              <polygon
+              <path
                 id="Shape"
-                fill="transparent"
                 color="#64ffda"
+                fill="transparent"
                 stroke="currentColor"
-                strokeWidth="5"
+                strokeWidth="4"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                points="39 0 0 22 0 67 39 90 78 68 78 23"
+                d="M39,0 L0,22 L0,67 L39,90 L78,68 L78,23 Z"
               />
               <text
-                x="25"
+                x="22"
                 y="63"
                 font-family="Arial"
                 font-size="50"
-                fontWeight="600"
+                fontWeight="500"
                 fill="#64ffda"
               >
                 S
@@ -51,20 +51,83 @@ const FrontLoader = styled.div`
     margin-left: 900px;
   }
 
-  .loader .logo #Shape {
-    animation: dash 1.5s linear infinite;
+  .loader .logo path {
+    stroke-dasharray: 271;
+    stroke-dashoffset: 271;
+
+    animation: dash 2s linear infinite;
   }
 
   @keyframes dash {
     0% {
-      stroke-dashoffset: 220;
+      stroke-dashoffset: 271;
     }
-    50% {
-      stroke-dashoffset: 110;
+    17% {
+      stroke-dashoffset: 318;
+    }
+    34% {
+      stroke-dashoffset: 365;
+    }
+    51% {
+      stroke-dashoffset: 412;
+    }
+    68% {
+      stroke-dashoffset: 459;
+    }
+    85% {
+      stroke-dashoffset: 506;
     }
     100% {
-      stroke-dashoffset: 220;
+      stroke-dashoffset: 553;
     }
+  }
+
+  .loader .logo text {
+    animation: blink 2s ease-in-out normal forwards;
+  }
+
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    17% {
+      opacity: 0;
+    }
+    34% {
+      opacity: 0;
+    }
+    51% {
+      opacity: 0;
+    }
+    68% {
+      opacity: 0;
+    }
+    85% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin-left: -550px;
+    margin-top: -100px;
+  }
+
+  @media (max-width: 425px) {
+    margin-left: -720px;
+    margin-top: -100px;
+  }
+
+  @media (max-width: 375px) {
+    margin-left: -745px;
+    margin-top: -150px;
+  }
+
+  @media (max-width: 320px) {
+    margin-left: -765px;
+    margin-top: -150px;
   }
 `;
 
