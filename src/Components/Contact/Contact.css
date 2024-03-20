@@ -183,7 +183,7 @@ z-index: -1;
 
   @media (max-width: 500px) {
       .contact{
-        width: 100%;
+        width: 90%;
         margin-left: 45px;
       }
       .heading{
@@ -199,7 +199,7 @@ z-index: -1;
 
           .contact p {
               font-size: 15px;
-              width: 390px;
+              width: auto;
               text-align: center;
               margin-left: -25px;
           }
@@ -219,7 +219,7 @@ z-index: -1;
   }
   @media(max-width:375px) {
       .contact {
-          width: 100%;
+          width: 90%;
           margin-left: 60px;
       }
 
@@ -235,7 +235,7 @@ z-index: -1;
       }
 
       .contact p {
-          width: 350px;
+          width: auto;
           text-align: center;
           margin-left: -45px;
           font-size: 14px;
@@ -252,7 +252,7 @@ z-index: -1;
 
   @media(max-width:320px){
     .contact {
-            width: 100%;
+            width: 90%;
             margin-left: 40px;
         }
     
@@ -268,7 +268,7 @@ z-index: -1;
         }
     
         .contact p {
-            width: 280px;
+            width: auto;
             text-align: center;
             margin-left: -20px;
             font-size: 14px;
