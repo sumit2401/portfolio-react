@@ -66,10 +66,26 @@ box-sizing: inherit;
 
 @media (max-width:769px) {
   body{
+    width: 90%;
     overflow: hidden;
   }
   ::-webkit-scrollbar{
     display: none;
+  }
+}
+@media (max-width:425px){
+body{
+  width: 90%;
+}
+}
+@media (max-width:375px) {
+  body {
+    width: 100%;
+  }
+}
+@media (max-width:32px) {
+  body {
+    width: 100%;
   }
 }
 
