@@ -167,7 +167,7 @@ z-index: -1;
         }
     
         .contact p {
-            width: 100%;
+            width: auto;
             text-align: center;
             margin-left: -60px;
         }
