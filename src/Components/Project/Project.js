@@ -1,7 +1,8 @@
 import React from "react";
 import "./Project.css";
-import project2 from "../../Assets/Image/newsverse.png";
 import project1 from "../../Assets/Image/shopper.png";
+import project2 from "../../Assets/Image/seeker.png";
+import project3 from "../../Assets/Image/newsverse.png";
 
 import Github from "../Icons/Github";
 import ExternalLink from "../Icons/ExternalLink";
@@ -13,7 +14,7 @@ const Project = () => {
       <div className="project1">
         <a
           className="project1-left"
-          href="https://github.com/sumit2401/NewsVerse-React"
+          href="https://github.com/sumit2401/Shopper"
           target="blank"
         >
           <div className="project1-image">
@@ -24,15 +25,12 @@ const Project = () => {
 
         <div className="project1-right">
           <h5>Featured Project</h5>
-          <a href="https://github.com/sumit2401/NewsVerse-React">
-            Shopper-Ecommerce
-          </a>
+          <a href="https://github.com/sumit2401/Shopper">Shopper-Ecommerce</a>
 
           <p>
-            Newsverse deliver real-time worldwide news updates with categorized
-            headlines. Stay informed effortlessly with our user-friendly
-            interface and customizable alerts, covering diverse topics from
-            politics to technology.
+            an immersive online shopping experience with Shopper, a dynamic
+            E-commerce platform tailored for users to effortlessly discover and
+            shop for their favorite clothes.
           </p>
 
           <ul>
@@ -46,14 +44,14 @@ const Project = () => {
 
           <div className="project-social">
             <a
-              href="https://github.com/sumit2401/NewsVerse-React"
+              href="https://github.com/sumit2401/Shopper"
               aria-label="github link"
               target="blank"
             >
               <Github />
             </a>
             <a
-              href="https://github.com/sumit2401/NewsVerse-React"
+              href="https://github.com/sumit2401/Shopper"
               aria-label="external link"
               target="blank"
             >
@@ -67,32 +65,30 @@ const Project = () => {
       <div className=" project2">
         <div className="project2-left description">
           <h5>Featured Project</h5>
-          <a href="https://github.com/sumit2401/NewsVerse-React">Newsverse</a>
+          <a href="https://github.com/sumit2401/Seekers">Seekers-Job Portal </a>
 
           <p>
-            Newsverse deliver real-time worldwide news updates with categorized
-            headlines. Stay informed effortlessly with our user-friendly
-            interface and customizable alerts, covering diverse topics from
-            politics to technology.
+            A dynamic Job Portal to revolutionize your job search experience,
+            seamlessly navigating through extensive job listings.
           </p>
 
           <ul>
             <li>React</li>
-            <li>Bootstrap</li>
-            <li>News Api</li>
-            <li>Vercel</li>
+            <li>Express Js</li>
+            <li>Job Api</li>
+            <li>Tailwind CSS</li>
           </ul>
 
           <div className="project2-social">
             <a
-              href="https://github.com/sumit2401/NewsVerse-React"
+              href="https://github.com/sumit2401/Seekers"
               aria-label="github link"
               target="blank"
             >
               <Github />
             </a>
             <a
-              href="https://github.com/sumit2401/NewsVerse-React"
+              href="https://github.com/sumit2401/Seekers"
               aria-label="external link"
               target="blank"
             >
@@ -102,7 +98,7 @@ const Project = () => {
         </div>
         <a
           className="project2-right image"
-          href="https://github.com/sumit2401/NewsVerse-React"
+          href="https://github.com/sumit2401/Seekers"
           target="blank"
         >
           <div className="project2-image">
@@ -111,6 +107,8 @@ const Project = () => {
           </div>
         </a>
       </div>
+
+      {/* project3 */}
       <div className="project1 project3">
         <a
           className="project1-left"
@@ -118,14 +116,14 @@ const Project = () => {
           target="blank"
         >
           <div className="project1-image">
-            <img src={project1} alt="" />
+            <img src={project3} alt="" />
             <div className="project1filter"></div>
           </div>
         </a>
 
         <div className="project1-right">
           <h5>Featured Project</h5>
-          <a href="https://github.com/sumit2401/NewsVerse-React">Textutils</a>
+          <a href="https://github.com/sumit2401/NewsVerse-React">NewsVerse</a>
 
           <p>
             Newsverse deliver real-time worldwide news updates with categorized
