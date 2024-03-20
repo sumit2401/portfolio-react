@@ -317,15 +317,11 @@
             margin-left: 420px;
         }
     
-        .about-img img {
-    
-         
-            width: 270px;
-            height: auto;
-          
-    
-        }
 
+        .about-img img {        
+                width: 270px;
+            height: auto;
+        }
         .background{
             width: 270px;
             height: 289px;
@@ -334,23 +330,13 @@
             width: 270px;
             height: 289px;
         }
-    
-     
-    
-       
-}
+        }
 @media (max-width: 375px) {
-
     .about-section {
         width: 90%;
-
         margin-top: 50px;
-
         margin-left: -270px;
-
-
     }
-
     .about {
         margin-top: -30px;
 
@@ -359,74 +345,47 @@
         gap: 40px;
 
     }
-
     .about-heading {
         width: 150px;
         font-size: 20px;
         margin-left: 300px;
-        
-    }
-
+            }
     .about-heading::before {
         margin-right: 10px;
-       
-       
-       
     }
-
     .about-heading::after {
         width: 100px;
         margin-left: 150px;
     }
-
     .aboutme p {
         font-size: 14px;
         width: auto;
         height: auto
     }
-
     .image {
         position: relative;
         display: inline-block;
         margin-left: 400px;
     }
-
     .about-img img {
-
-
         width: 250px;
         height: auto;
-
-
     }
     .background{
         width: 250px;
         height: 265px;
     }
-
     .border {
         width: 250px;
         height: 265px;
     }
-
-
-
-
-
-
 }
 
- 
-@media (max-width: 320px) {
-
+ @media (max-width: 320px) {
     .about-section {
         width: 95%;
-
         margin-top: 50px;
-
         margin-left: -270px;
-
-
     }
         .about {
         margin-top: -10px;
@@ -436,42 +395,32 @@
         gap: 40px;
 
     }
-
     .about-heading {
         width: 150px;
         font-size: 20px;
         margin-left: 300px;
     }
-
     .about-heading::before {
         margin-right: 10px;
        
     }
-
     .about-heading::after {
         width: 100px;
         margin-left: 150px;
     }
-
     .aboutme p {
         font-size: 14px;
         width: auto;
         height: auto
     }
-
     .image {
         position: relative;
         display: inline-block;
         margin-left: 370px;
     }
-
     .about-img img {
-
-
-        width: 250px;
+         width: 250px;
         height: auto;
-
-
     }
     .background{
         width: 250px;
@@ -481,10 +430,4 @@
         width: 250px;
         height: 265px;
     }
-
-
-
-
-
-
 }
