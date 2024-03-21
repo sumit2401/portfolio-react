@@ -77,7 +77,7 @@ const FrontLoader = styled.div`
     85% {
       stroke-dashoffset: 506;
     }
-    100% {
+    95% {
       stroke-dashoffset: 553;
     }
   }
